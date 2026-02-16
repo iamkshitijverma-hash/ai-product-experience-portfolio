@@ -20,6 +20,13 @@ An AI assistant that:
 3) highlights safety + “measure-first” checks
 4) shows “why this recommendation” + trade-offs
 
+## Clarifying questions (asked before recommending)
+1) Vehicle type (sedan/SUV/truck) and model/year (if known)
+2) Where is the clutter mainly? (front seat / back seat / trunk)
+3) What items do you need to store? (phone, wipes, bottles, toys, etc.)
+4) Any safety constraints? (child seat, side airbags, pedals, seatbelt access)
+5) Your preference: hidden/minimal look vs maximum storage
+
 ## 5) UX flow (simple)
 Landing → “Find my organizer” → Questions → Recommendations → Compare → Add to cart → Post-purchase setup tips
 
@@ -40,3 +47,15 @@ Secondary:
 
 ## 8) MVP scope
 - Question flow + 3 recommendations + comparison + safety warnings
+
+## 9) Product scope (what the assistant recommends)
+The assistant recommends from 3 product types:
+1) Seat gap organizer
+2) Backseat organizer
+3) Car small dustbin (compact trash can)
+
+For each recommendation it will:
+- confirm compatibility (or say uncertain and ask for measurements)
+- highlight safety notes (airbags/seatbelts/driver visibility)
+- give 3 tiers: Budget / Best Value / Premium
+
